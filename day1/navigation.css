@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 15%;
+    height: 60px;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: segoe UI;
+    color: blue;
+    border: 2px solid blue;
+    line-height:60px ;
+}
+
+.nav {
+    width: 40%;
+    /* height: 60px; */
+    /* background-color: yellow; */
+}
+
+.nav-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link{
+    list-style-type: none;
+    width: 20%;
+    height: 60px;
+    /* background-color: green; */
+    text-align: center;
+    line-height: 60px;
+    font-family: segoe UI;
+    font-size: 18px;
+    border:2px solid blue;
+    color: darkblue;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.image-1{
+    background-image: url('https://www.kindpng.com/picc/m/111-1110976_blue-home-icon-hd-png-download.png');
+    background-size: cover;
+    background-position:center;
+}
+
+.image-2{
+    background-image: url('https://www.pngkey.com/png/full/201-2015067_icon-vector-person-people-icon-blue-png.png');
+    background-size: cover;
+    background-position:center;
+}
+
+.image-3{
+    background-image: url('https://www.vhv.rs/dpng/d/444-4449620_blue-cart-icon-png-transparent-png.png');
+    background-size: cover;
+    background-position:center;
+}
+
+.image-4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWtiO3A2CLT7ge0f49JiPPuFxcSQyBrifWSU2PnxwC9DjA3FV2c6YNXVNom6-oc3ZIQSs&usqp=CAU');
+    background-size: cover;
+    background-position:center;
+}
+
+@media (max-width:450px)
+{
+    .container{
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav-link{
+        width: 100%;
+        box-shadow: 0 0 1px gray;
+        line-height: 50px;
+        height: 50px;
+        text-align: left;
+        text-indent: 18px;
+    }
+}
+@media (max-width:1000px)
+{
+    .container{
+        width: 60%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .nav-link{
+        width: 80%;
+        box-shadow: 0 0 2px gray;
+        line-height: 40px;
+        height: 40px;
+        text-align: left;
+        text-indent: 18px; 
+    }
+}
+
